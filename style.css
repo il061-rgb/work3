@@ -4,3 +4,51 @@ html , body {margin: 0px;
     width: auto;
   background-color: white;
 }
+
+
+.Had{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.left-section{
+    position: relative;
+    left: 15vh;
+    font-size: 36px;
+}
+
+
+.center-section{
+    position: relative;
+    justify-content: space-between;
+    font-size: 16px;
+    top: 70px;
+    word-spacing: 3.5vh;
+}
+
+.center-section a {
+    text-decoration: none;
+    color: black;
+}
+
+
+.right-section{
+    position: relative;
+    right: 17vh;
+    top: 65px;
+}
+
+
+.Sign-in{
+    position: absolute;
+    margin-left: -80px;
+}
+
+.right-section a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+
+
