@@ -157,8 +157,43 @@ html , body {margin: 0px;
 }
 
 .group-img{
-    width: 966px;
-    height: 706px;
     position: relative;
-    left: 150px;
+    left: 40px;
+}
+
+.group-img img {
+     width: 866px;
+    height: 706px;
+}
+
+.main-svg-one{
+    position: relative;
+    top: 100px;
+}
+
+.main-svg-two{
+    position: relative;
+    left: 40px;
+    top: 40px;
+}
+
+.imodjes{
+    display: flex;
+    justify-content: center;
+}
+
+.small-text{
+    color: #5B5E6D;
+    position: relative;
+    left: 450px;
+}
+
+.icons{
+    display: flex;
+    justify-content: space-between;
+    top: 50px;
+    text-align: center;
+    right: 200px;
+    position: relative;
+    top: 100px;
 }
