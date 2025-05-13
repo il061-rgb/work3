@@ -180,12 +180,14 @@ html , body {margin: 0px;
 .imodjes{
     display: flex;
     justify-content: center;
+    position: relative;
+    top: 100px;
 }
 
 .small-text{
     color: #5B5E6D;
     position: relative;
-    left: 450px;
+    left: 400px;
 }
 
 .icons{
@@ -193,9 +195,9 @@ html , body {margin: 0px;
     justify-content: space-between;
     top: 50px;
     text-align: center;
-    right: 200px;
+    right: 300px;
     position: relative;
-    top: 100px;
+    top: 50px;
 }
 
 
@@ -228,7 +230,7 @@ height: 145px;
     justify-content: center;
     position: relative;
     top: 150px;
-    right: 370px;
+    right: 500px;
     width: 895px;
     height: 105px;
 }
@@ -241,20 +243,20 @@ height: 145px;
 
 
 .button{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-     background-color: #0555FF1A;
-    width: 245px;
-    height: 50px;
-    border-radius: 30px;
-    position: relative;
-    top: 350px;
-    left: 650px;
+display: flex;
+justify-content: center;
+position: relative;
+top: 330px;
+right: -1100px;
+background-color: #0555FF1A;
+width: 245px;
+height: 50px;
+border-radius: 30px;
 }
 
-button svg{
+.button svg{
     position: relative;
+    top: 10px;
     right: 20px;
 }
 
@@ -283,6 +285,11 @@ button svg{
     justify-content: center;
     position: relative;
     right: -20px;
+}
+
+.main-card-text{
+    position: relative;
+    margin-left: -300px;
 }
 
 
@@ -319,16 +326,113 @@ button svg{
     justify-content: end;
     align-items: end;
     position: relative;
-    left: 100px;
+    left: 450px;
+    top: -50px;
     overflow: hidden;
+    border-radius: 30px;
 }
-.main-card-one-img img{
+.main-card-one-img-img{
 width: 457px;
 height: 460px;
-transition: all 1s ease;
-transform-origin: center;
 transform: scale(1.6);
 position: relative;
-top: -100px;
+top: 0px;
+border: 30px;
+}
+
+
+
+.two-main-card{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 700px;
+    right: -300px;
+}
+
+
+.main-card-text-two{
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 72px;
+   color: #050038;
+}
+
+.main-card-text-p-one{
+        font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: #5B5E6D;
+}
+
+.main-card-text-p2-one{
+        font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: black;
+}
+
+.main-card-text-p2-one svg{
+    position: relative;
+    top: 7px;
+    left: -210px;
+}
+.main-card-two-img{
+     display: flex;
+    justify-content: end;
+    align-items: end;
+    position: relative;
+    left: -800px;
+    top: -400px;
+    overflow: hidden;
+    border-radius: 30px;
+}
+
+.main-card-two-img-img{
+  width: 457px;
+height: 460px;
+transform: scale(1.4);
+transform: scaleX(-1.4);
+position: relative;
+top: 0px;
+border: 30px;
+}
+
+.three-main-card{
+        display: flex;
+    justify-content: center;
+    position: relative;
+    top: 500px;
+}
+
+.main-card-three{
+    position: relative;
+    margin-left: -900px;
+}
+
+
+.main-card-text-three{
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 72px;
+   color: #050038;
+}
+
+
+.main-card-three-img{
+        display: flex;
+    justify-content: end;
+    align-items: end;
+    position: relative;
+    left: 1000px;
+    top: -400px;
+    overflow: hidden;
+    border-radius: 30px;
+}
+
+
+.main-card-three-img-img{
+width: 457px;
+height: 460px;
+transform: scale(1.1);
+position: relative;
+top: -20px;
+left: -10px;
 border-radius: 30px;
 }
