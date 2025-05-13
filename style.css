@@ -265,3 +265,70 @@ button svg{
     left: 10px;
     color: #0555FF;
 }
+
+
+
+.main-card{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 500px;
+}
+
+
+.main-card-one{
+    width: 1291.46px;
+    height: 586.46px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    right: -20px;
+}
+
+
+.main-card-text h1{
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 72px;
+   color: #050038;
+}
+
+
+.main-card-text-p1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: #5B5E6D;
+}
+
+
+.main-card-text-p2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: black;
+}
+
+
+.main-card-text-p2 svg{
+    position: relative;
+    top: 10px;
+    right: 210px;
+}
+
+
+.main-card-one-img{
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    position: relative;
+    left: 100px;
+    overflow: hidden;
+}
+.main-card-one-img img{
+width: 457px;
+height: 460px;
+transition: all 1s ease;
+transform-origin: center;
+transform: scale(1.6);
+position: relative;
+top: -100px;
+border-radius: 30px;
+}
