@@ -436,3 +436,55 @@ top: -20px;
 left: -10px;
 border-radius: 30px;
 }
+
+
+
+.Favoriets{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 400px;
+}
+
+
+.Favoriets-text-two{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    left: -100px;
+}
+
+
+.Favoriets-text{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    right: -600px;
+}
+
+.Favoriets-text p {
+    white-space: nowrap;
+    color: #5B5E6D;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    right: -500px;
+}
+
+
+.Favoriets-text h1 {
+      white-space: nowrap;
+    color: #050038;
+    font-size: 72px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    top: 0px;
+    left: -300px;
+}
+
+
+.Favoriets-card-grid{
+    position: relative;
+    top: 400px;
+}
