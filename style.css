@@ -36,7 +36,8 @@ html , body {margin: 0px;
 
 .right-section {
     position: relative;
-    right: 17vh;
+    justify-content: flex-end;
+    left: -120px;
     top: 65px;
     font-size: 18px;
 }
@@ -195,7 +196,7 @@ html , body {margin: 0px;
     justify-content: space-between;
     top: 50px;
     text-align: center;
-    right: 300px;
+    right: 200px;
     position: relative;
     top: 50px;
 }
@@ -212,8 +213,7 @@ html , body {margin: 0px;
 .main-center-two-text{
  display: flex;
  justify-content: center;
- position: relative;
-left: 400px;
+ position: absolute;
 width: 895px;
 height: 145px;
 }
@@ -228,11 +228,12 @@ height: 145px;
 .main-center-two-text-hover{
     display: flex;
     justify-content: center;
-    position: relative;
-    top: 150px;
-    right: 500px;
-    width: 895px;
+    width: 100%;
     height: 105px;
+    position: absolute;
+    left: 0px;
+    top: 120px;
+    right: 350px;
 }
 
 .main-center-two-text-hover p {
@@ -241,30 +242,42 @@ height: 145px;
 }
 
 
+.sec-but{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    object-fit: contain;
+}
+
+
 
 .button{
 display: flex;
 justify-content: center;
-position: relative;
-top: 330px;
-right: -1100px;
+position: absolute;
+left: 650px;
+top: 1200px;
 background-color: #0555FF1A;
 width: 245px;
 height: 50px;
 border-radius: 30px;
+
 }
 
 .button svg{
-    position: relative;
+    position: absolute;
+    justify-content: flex-start;
     top: 10px;
-    right: 20px;
+    left: 20px;
 }
 
 
 .button p {
-    position: relative;
+    position: absolute;
+    justify-content: flex-end;
     top: -2px;
-    left: 10px;
+    right: 30px;
     color: #0555FF;
 }
 
@@ -274,7 +287,7 @@ border-radius: 30px;
     display: flex;
     justify-content: center;
     position: relative;
-    top: 500px;
+    top: 800px;
 }
 
 
@@ -326,7 +339,7 @@ border-radius: 30px;
     justify-content: end;
     align-items: end;
     position: relative;
-    left: 450px;
+    left: 350px;
     top: -50px;
     overflow: hidden;
     border-radius: 30px;
@@ -420,7 +433,7 @@ border: 30px;
     justify-content: end;
     align-items: end;
     position: relative;
-    left: 1000px;
+    left: 900px;
     top: -400px;
     overflow: hidden;
     border-radius: 30px;
@@ -428,7 +441,7 @@ border: 30px;
 
 
 .main-card-three-img-img{
-width: 457px;
+width: 357px;
 height: 460px;
 transform: scale(1.1);
 position: relative;
@@ -439,52 +452,65 @@ border-radius: 30px;
 
 
 
-.Favoriets{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    top: 400px;
+.Favoriets {
+  display: flex;
+  flex-direction: column;
+  font-weight: 100%;
+  align-items: center;
+  padding: 200px;
+  position: relative; /* Добавил для привязки абсолютных элементов */
 }
 
-
-.Favoriets-text-two{
-    display: flex;
-    justify-content: center;
-    position: relative;
-    left: -100px;
-}
-
-
-.Favoriets-text{
-    display: flex;
-    justify-content: center;
-    position: relative;
-    right: -600px;
+.Favoriets-text-two {
+  text-align: center;
+  margin-bottom: 40px; /* Отступ вместо top: 400px */
 }
 
 .Favoriets-text p {
-    white-space: nowrap;
-    color: #5B5E6D;
-    font-size: 16px;
-    font-family: Arial, Helvetica, sans-serif;
-    position: relative;
-    right: -500px;
+  color: #5B5E6D;
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 10px;
 }
-
 
 .Favoriets-text h1 {
-      white-space: nowrap;
-    color: #050038;
-    font-size: 72px;
-    font-family: Arial, Helvetica, sans-serif;
-    position: relative;
-    top: 0px;
-    left: -300px;
+  color: #050038;
+  font-size: 72px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
 }
 
+.Favoriets-card-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 колонки */
+  gap: 20px;
+  width: 100%;
+  max-width: 1200px;
+}
 
-.Favoriets-card-grid{
-    position: relative;
-    top: 400px;
+.Favoriets-card {
+  background: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.Favoriets-card-profile {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.Favoriets-card-profile-img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: #ddd;
+  margin-right: 10px;
+}
+
+.Favoriets-card-text p {
+  color: #333;
+  font-size: 14px;
+  line-height: 1.5;
 }
