@@ -492,8 +492,85 @@ border-radius: 30px;
 
 .footer-glava1{
     display: flex;
-    justify-content: center;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
-    
+    position: relative;
+    top: 100px;
+    margin-right: -800px;
+} 
+
+
+.footer-glava1 h1{
+    font-size: 72px;
 }
+
+
+
+
+.footer-center-button{
+    display: flex;
+    width: 748px;
+    height: 80px;
+    position: relative;
+    top: 400px;
+    right: -280px;
+    border: 1px;
+    border-color: white;
+    border-radius: 10px;
+}
+
+
+.Enter_your_email{
+    background-color: #130C3A;
+    border-color: #FFFFFF80;
+    color: #C1C1C1;
+    width: 227px;
+    height: 73px;
+
+}
+
+
+.footer-button{
+    background-color: #0555FF;
+    width: 221px;
+    height: 80px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+}
+
+.Spellon{
+   position: relative;
+   top: 590px;
+   z-index: 1;
+   margin-left: -900px;
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+.Spellon h1{
+    color: white;
+}
+
+.Spellon p {
+    color: #7884A6;
+}
+
+
+.Resources{
+     font-family: Arial, Helvetica, sans-serif;
+     position: relative;
+     top: 620px;
+     z-index: 1;
+     left: -400px;
+}
+.Resources h1{
+    color: white;
+    font-size: 20px;
+}
+
+.Resources p{
+    color: #7884A6;
+    font-size: 16px;
+}
+
+
