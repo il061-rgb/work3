@@ -496,12 +496,14 @@ border-radius: 30px;
     font-family: Arial, Helvetica, sans-serif;
     position: relative;
     top: 100px;
-    margin-right: -800px;
+    margin-right: -500px;
 } 
 
 
 .footer-glava1 h1{
     font-size: 72px;
+    position: relative;
+    right: -300px;
 }
 
 
@@ -513,7 +515,7 @@ border-radius: 30px;
     height: 80px;
     position: relative;
     top: 400px;
-    right: -280px;
+    right: -250px;
     border: 1px;
     border-color: white;
     border-radius: 10px;
@@ -574,3 +576,42 @@ border-radius: 30px;
 }
 
 
+.Company {
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    z-index: 1;
+    top: 620px;
+    left: -200px;
+}
+
+.Company h1{
+    color: white;
+    font-size: 20px;
+}
+
+.Company p{
+    color: #7884A6;
+    font-size: 16px;
+}
+
+
+
+.Legal{
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    z-index: 1;
+    top: 620px;
+    left: -50px;
+}
+
+
+.Legal h1{
+     color: white;
+    font-size: 20px;
+}
+
+
+.Legal p {
+     color: #7884A6;
+    font-size: 16px;
+}
